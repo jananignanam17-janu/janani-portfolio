@@ -1,0 +1,265 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2px;
+    margin: 0%;
+    padding: 0%;
+    line-height: 2px;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background: rgb(255,255,255,0.9);
+    width: 100%;
+    padding: 1rem 0.5rem;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.5);
+    z-index: 1000;
+}
+.navcontainer{
+    margin: 0 auto;   
+    max-width:100% ;
+    padding: 0 2rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navcontainer .logo h3{
+    color: #1bbdea;
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style:none ;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(46, 7, 7);
+    font-weight: 600;
+    font-size: 1rem;
+}
+nav a:hover{
+    color: #18b6c5;
+}
+.csshome{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,  #3b82f6 0%, #8b5cf6 100%);
+    color: white;
+    text-align: center;
+    padding: 20px 10px 10px;
+}
+.hometxt{
+    display: grid;
+    gap: 10px;
+}
+.hometxt h1{
+    font-size: 3em;
+    
+}
+.homebutton{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.homebutton button{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.homebutton .btnprimary{
+    background: white;
+    color: #3b82f6;
+    border: none;
+}
+.homebutton .btnsecondary{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.section{
+    max-width: 100%;
+    margin: 0;
+    padding: 5em 3em;
+    background: rgb(220, 208, 208);
+}
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 3em;
+    background: white;
+}
+
+.eduitem{
+    padding: 2rem;
+    border-left: 4px solid #18beec;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(77, 71, 71);
+    background: rgb(250, 249, 249);
+    line-height: 20px;
+
+}
+.edubox{
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(280px,1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    background: white;
+}
+.eduitem h3{
+    color: #189fa6;
+    margin-bottom: 1.5rem;
+    font-size: 1.5em;
+    padding: auto;
+    line-height: 1%;
+}
+.eduitem .edudegree {
+    color: rgb(10, 9, 9);
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    padding: 0%;
+}
+.eduitem .eduinstitute{
+    color: gray;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+.eduitem .eduyear{
+    background: rgb(243, 236, 236);
+    color: rgb(0, 183, 255);
+    padding: 1rem 1rem;
+    font-weight: 600;
+    display: flex;
+    border-radius: 20px;
+    font-size: 1rem;
+    max-width: 25%;
+    
+}
+.eduitem .edugrade{
+    color: rgb(1, 50, 1,1);
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.skills{
+    background: #f6f6f6;
+    padding: 5rem 10rem;
+}
+.skill-category{
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(51, 48, 48);
+}
+.skill-category h3{
+    color: #18b6c5;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.skill-tags{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.skill-category .tags{
+    background: rgb(202, 238, 243);
+    color: rgb(25, 4, 116);
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.certificates{
+    background: rgb(243, 232, 232);
+    padding: 5rem 10rem;
+}
+.certificatecontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.certificatetags{
+    padding: 2rem;
+    border-left: 5px solid #d506a5;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(77, 71, 71);
+    background: rgb(255, 255, 255);
+    line-height: 20px;
+    max-width: 500;
+}
+.certificatetags h3{
+   padding: 0;
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+.certificatetags .course{
+    font-weight: 700;
+    color: #d60db5;
+}
+.certificatetags .completion{
+    color: rgb(70, 68, 68);
+    font-weight: 700;
+}
+.contacts{
+    background: white;
+    padding: 5rem 10rem;
+}
+.contactcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mail{
+    padding: 2rem;
+    background: rgb(237, 232, 232);
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    max-width: 400;
+    border-radius: 50px;
+}
+.mail img{
+    width: 30px;
+    height: 20px;
+}
+.mail p{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+{
+🌐
+🗄️
+🛠️
+}
+
+
+
